@@ -1,0 +1,87 @@
+body{
+    width: 100hw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, white 0%, lightblue 50%, blue 100%);
+}
+.card{
+    width: 99hw;
+    height: 450px;
+    background: linear-gradient( rgba(1, 187, 1, 0.849), rgba(63, 63, 238, 0.877));
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 4px 14px black;
+    
+}
+.SearchBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 15px;
+}
+.SearchBox>input{
+    width: 75%;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 10px ;
+    font-size: large;
+}
+.btn{
+    width: 20%;
+    height: 100%;
+    background: transparent;
+    padding-top: 7px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.btn>img{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 0 auto;
+    border-radius: 100%;
+}
+.mainContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #fff; */
+    align-items: center;
+}
+.WeatherContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -29px;
+}
+.WeatherContent>h2{
+    margin-top: -30px;
+}
+.temp{
+    font-size: 43px;
+    color: aliceblue;
+}
+.city{
+    color: aliceblue;
+}
+.Realfeel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px ;
+}
+.RealfeelContent{
+    padding-top: 10px;
+}
+.RealfeelContent>h3{
+    margin-top: -18px;
+    color: aliceblue;
+
+}
